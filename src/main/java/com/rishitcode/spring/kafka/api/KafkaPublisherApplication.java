@@ -1,4 +1,4 @@
-package com.imranscode.spring.kafka.api;
+package com.rishitcode.spring.kafka.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
@@ -20,7 +20,7 @@ public class KafkaPublisherApplication {
 
 	@GetMapping("/publish/{name}")
 	public String publishMessage(@PathVariable String name) {
-		template.send(topic, "Hi " + name + " Welcome to Imrans's Code");
+		template.send(topic, "Hi " + name + " Welcome to Rishit's Code");
 		return "Data published";
 	}
 

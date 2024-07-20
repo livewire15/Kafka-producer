@@ -1,4 +1,4 @@
-package com.imranscode.spring.kafka.api.config;
+package com.rishitcode.spring.kafka.api.config;
 
 import java.util.HashMap;
 import java.util.Map;

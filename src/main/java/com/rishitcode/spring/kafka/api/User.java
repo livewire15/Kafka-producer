@@ -1,4 +1,4 @@
-package com.imranscode.spring.kafka.api;
+package com.rishitcode.spring.kafka.api;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
